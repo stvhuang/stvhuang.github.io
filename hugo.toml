@@ -1,0 +1,31 @@
+baseURL = "https://stvhuang.github.io/"
+disableKinds = ["robotstxt", "sitemap", "taxonomy", "term"]
+languageCode = "en-us"
+theme = "xmin"
+title = "stvhuang"
+
+[[menu.main]]
+name = "Home"
+url = ""
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 3
+
+[[menu.main]]
+name = "RSS"
+url = "index.xml"
+weight = 4
+
+[params]
+footer = "&copy; stvhuang 2020 -- {Year}"
+
+[permalinks]
+post = "/post/:year-:month-:day-:slug/"
